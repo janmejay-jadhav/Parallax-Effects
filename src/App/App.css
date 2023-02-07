@@ -1,0 +1,15 @@
+.text {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.text:hover {
+  background-color: rgb(5, 5, 77);
+  color: white;
+  transition: all 0.5s;
+}
+
+.active {
+  background-color: rgb(5, 5, 77);
+  color: white;
+}
