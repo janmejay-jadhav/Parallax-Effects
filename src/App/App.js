@@ -1,5 +1,5 @@
 import { CssBaseline } from "@mui/material";
-import { ThemeProvider,createTheme } from "@mui/material/styles";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../components/pages/Home";
 import Login from "../components/pages/Login";
@@ -26,3 +26,12 @@ function App() {
 }
 
 export default App;
+
+/*
+ <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/table" element={<Table />} />
+        </Routes>
+*/

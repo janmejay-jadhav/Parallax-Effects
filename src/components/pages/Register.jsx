@@ -31,7 +31,7 @@ function Register() {
         navigate("/");
       }
     } catch (error) {
-      alert("Email Already Exists, Register again");
+      alert("Email Already Exists  , Register again");
     }
   };
 
